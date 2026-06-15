@@ -1,0 +1,50 @@
+package com.grocery.onlinegrocery.dto;
+
+public class DeliveryRatingRequest {
+
+	private Long orderId;
+	private Long deliveryPersonId;
+	private Long userId;
+	private Integer rating;
+	private String comment;
+
+	public Long getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(Long orderId) {
+		this.orderId = orderId;
+	}
+
+	public Long getDeliveryPersonId() {
+		return deliveryPersonId;
+	}
+
+	public void setDeliveryPersonId(Long deliveryPersonId) {
+		this.deliveryPersonId = deliveryPersonId;
+	}
+
+	public Long getUserId() {
+		return userId;
+	}
+
+	public void setUserId(Long userId) {
+		this.userId = userId;
+	}
+
+	public Integer getRating() {
+		return rating;
+	}
+
+	public void setRating(Integer rating) {
+		this.rating = rating;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+}
